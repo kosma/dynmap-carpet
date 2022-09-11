@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "dynmap-carpet",
+  "version": "${version}",
+  "name": "Dynmap Carpet",
+  "description": "Fabric-Carpet integration for Dynmap",
+  "authors": [
+    "Kosmolot"
+  ],
+  "contact": {
+    "website": "https://www.curseforge.com/minecraft/mc-mods/dynmap-carpet",
+    "repo": "https://github.com/kosma/dynmap-carpet"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "dynmap-carpet.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": "1.19.2",
+    "carpet": "*",
+    "dynmap": "*"
+  }
+}
